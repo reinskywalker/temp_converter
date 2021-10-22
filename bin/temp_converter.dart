@@ -1,5 +1,7 @@
-import 'package:temp_converter/temp_converter.dart' as temp_converter;
+import 'dart:io';
 
-void main(List<String> arguments) {
-  print('Hello world: ${temp_converter.calculate()}!');
+main (List<String> arguments) {
+  print("Enter Celciius Temp : ");
+  String input = stdin.readLineSync();
+
 }
